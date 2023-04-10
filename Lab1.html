@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-vidth, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="name" maxlength="25" placeholder="Enter ur name" required>
+        <br>
+        <br>
+        <label for="email">Email Id : </label>
+        <input type="text" name="emailid" id="email" value="test@example.com" required autofocus readonly>
+        <br>
+        <br>
+        <label for="pass">Password : </label>
+        <input type="password" name="passw" id="pass" minlength="6" required>
+        <br>
+        <br>
+        <label for="cate">Category : </label>
+        <select id="category" name="category">
+            <option value="srudent">student</option>
+            <option value="employee">employee</option>
+            <option value="freelancer" selected>freelancer</option>
+        </select>
+        <br>
+        <br>
+        <label for="event">Event date : </label>
+        <input type="date" name="event_date" id="event" required>
+        <br>
+        <br>
+        <label for="tik">Tickets : </label>
+        <input type="radio" name="ticket" value="1 ticket">1 tickets
+        <input type="radio" name="ticket" value="2 tickets" checked>2 tickets
+        <input type="radio" name="ticket" value="3 tickets">3 tickets
+        <br>
+        <br>
+        <label for="pay">Payments : </label>
+        <input type="checkbox" name="online" id="payment" value="online payment" required>online payment
+        <br>
+        <br>
+        <label for="note">Notes : </label>
+        <textarea rows="3" cols="40" size="50" placeholder="Please specifiy the details here, if any."></textarea>
+        <br>
+        <br>
+        <button type="submit" name="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>
